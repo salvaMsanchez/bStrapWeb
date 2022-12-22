@@ -1,0 +1,90 @@
+
+body {
+  background-color: whitesmoke;
+}
+
+.encabezado .imagen {
+    position: relative;
+    left: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.encabezado .letras {
+    position: relative;
+    left: 25px; 
+    font-weight: 600;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+}
+
+.menu {
+  background-color: rgba(43, 17, 102);
+}
+
+.menu .navbar {
+  background-color: rgba(43, 17, 102);
+}
+
+.menu .navbar .logotipo {
+  color: whitesmoke;
+}
+
+.menu .navbar .logotipo:hover {
+  color: rgba(244, 237, 71);
+}
+
+.menu .navbar .nav-link {
+  color: whitesmoke;
+}
+
+.menu .navbar .nav-link:hover {
+  color: rgba(244, 237, 71);
+}
+
+.menu .navbar .dropdown-item {
+  color: black;
+}
+
+.menu .navbar-toggler svg {
+  color: white;
+  height: 28px;
+  width: 28px;
+}
+
+.fotoSeriousGames {
+  float: right;
+}
+
+.iconos {
+  margin: 1em;
+  padding-top: 0.5em;
+}
+
+.iconos .icons a {
+  color: rgba(43, 17, 102);
+}
+
+.iconos .icons a:hover {
+  color: rgba(43, 17, 102);
+}
+
+.iconos .icons svg {
+  transition: 1s;
+}
+
+.iconos .icons svg:hover {
+  height: 4em;
+  width: 4em;
+}
+
+.footer {
+  background-color: rgba(43, 17, 102);
+}
+
+.footer .letrasPie {
+  font-size: 14px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  color: white;
+}
